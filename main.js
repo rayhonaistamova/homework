@@ -40,4 +40,37 @@
 // ovqatTayyorla(2, tayyorla)
 
 /////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+// Algorithm 2
+
+// let evos_is_open = true;
+
+// function order(time, work) {
+//   return new Promise((resolve, reject) => {
+//     if (evos_is_open) {
+//       setTimeout(() => {
+//         resolve (work())
+//       },time)
+//     } else {
+//       reject(console.log("the shop is closed"));
+//     }
+//   });
+// }
+
+// order(1000, () => console.log("the shop is open"))
+// .then(() => {
+//   return order(2000, () => console.log("what do you want?"))
+// })
+// .then(() => {
+//     return order(3000, () => console.log("we will go to the 5 minut"))
+// })
+// .then(() => {
+//     return order(2000, () => console.log("if you pleasent our work, we will be happy"))
+// })
+// .catch(() =>{
+//     console.log("something was wrong");
+// })
+// .finally(() => {
+//     console.log("thenks for attention");
+// })
